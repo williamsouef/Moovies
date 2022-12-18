@@ -8,30 +8,29 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var onboardingIsShowing = false
+    
     var body: some View {
         
         
         VStack(alignment: .trailing, spacing: 70){
             
-                
-                Button(action: {
-                    print("clicked")
-                }, label: {
-                    InfoButton()
-                })
-                .padding(50)
-              
-              
-                     
-            Text("Cinema Ticket")
-                .fontWeight(.bold)
-                .font(.largeTitle)
-                .foregroundColor(Color.yellow)
-                .shadow(color: .orange, radius: 10, x: 0, y: 10)
+            
+            Button(action: {
+                onboardingIsShowing = true
+            }){
+                InfoButton()
+            }.sheet(isPresented:$onboardingIsShowing, onDismiss:{},content:{
+                OnboardingView(onboardingIsShowing: $onboardingIsShowing)
+            })
+            .padding(50)
+            
+            TitleApp()
                 .padding(70)
             Spacer()
-                }
-            
+        }
+        
     }
 }
 

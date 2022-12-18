@@ -13,6 +13,8 @@
 		B3FA5EFE294E0ED4006CA051 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3FA5EFD294E0ED4006CA051 /* Preview Assets.xcassets */; };
 		B3FA5F06294E10B8006CA051 /* InfoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FA5F05294E10B8006CA051 /* InfoButton.swift */; };
 		B3FA5F08294F2791006CA051 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FA5F07294F2791006CA051 /* OnboardingView.swift */; };
+		B3FA5F0A294F2A46006CA051 /* TitleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FA5F09294F2A46006CA051 /* TitleApp.swift */; };
+		B3FA5F0C294F2B88006CA051 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FA5F0B294F2B88006CA051 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		B3FA5EFD294E0ED4006CA051 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B3FA5F05294E10B8006CA051 /* InfoButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoButton.swift; sourceTree = "<group>"; };
 		B3FA5F07294F2791006CA051 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		B3FA5F09294F2A46006CA051 /* TitleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleApp.swift; sourceTree = "<group>"; };
+		B3FA5F0B294F2B88006CA051 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 			isa = PBXGroup;
 			children = (
 				B3FA5F05294E10B8006CA051 /* InfoButton.swift */,
+				B3FA5F0B294F2B88006CA051 /* InfoView.swift */,
+				B3FA5F09294F2A46006CA051 /* TitleApp.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -154,6 +160,8 @@
 				B3FA5EF9294E0ED2006CA051 /* ContentView.swift in Sources */,
 				B3FA5F08294F2791006CA051 /* OnboardingView.swift in Sources */,
 				B3FA5EF7294E0ED2006CA051 /* MooviesApp.swift in Sources */,
+				B3FA5F0A294F2A46006CA051 /* TitleApp.swift in Sources */,
+				B3FA5F0C294F2B88006CA051 /* InfoView.swift in Sources */,
 				B3FA5F06294E10B8006CA051 /* InfoButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
