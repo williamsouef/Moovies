@@ -11,6 +11,8 @@
 		B3FA5EF9294E0ED2006CA051 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FA5EF8294E0ED2006CA051 /* ContentView.swift */; };
 		B3FA5EFB294E0ED4006CA051 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3FA5EFA294E0ED4006CA051 /* Assets.xcassets */; };
 		B3FA5EFE294E0ED4006CA051 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3FA5EFD294E0ED4006CA051 /* Preview Assets.xcassets */; };
+		B3FA5F06294E10B8006CA051 /* InfoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FA5F05294E10B8006CA051 /* InfoButton.swift */; };
+		B3FA5F08294F2791006CA051 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FA5F07294F2791006CA051 /* OnboardingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		B3FA5EF8294E0ED2006CA051 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B3FA5EFA294E0ED4006CA051 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3FA5EFD294E0ED4006CA051 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B3FA5F05294E10B8006CA051 /* InfoButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoButton.swift; sourceTree = "<group>"; };
+		B3FA5F07294F2791006CA051 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				B3FA5EF6294E0ED2006CA051 /* MooviesApp.swift */,
+				B3FA5F04294E1097006CA051 /* Views */,
 				B3FA5EF8294E0ED2006CA051 /* ContentView.swift */,
+				B3FA5F07294F2791006CA051 /* OnboardingView.swift */,
 				B3FA5EFA294E0ED4006CA051 /* Assets.xcassets */,
 				B3FA5EFC294E0ED4006CA051 /* Preview Content */,
 			);
@@ -65,6 +71,14 @@
 				B3FA5EFD294E0ED4006CA051 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B3FA5F04294E1097006CA051 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B3FA5F05294E10B8006CA051 /* InfoButton.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +152,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3FA5EF9294E0ED2006CA051 /* ContentView.swift in Sources */,
+				B3FA5F08294F2791006CA051 /* OnboardingView.swift in Sources */,
 				B3FA5EF7294E0ED2006CA051 /* MooviesApp.swift in Sources */,
+				B3FA5F06294E10B8006CA051 /* InfoButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
