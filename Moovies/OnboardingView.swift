@@ -13,16 +13,19 @@ struct OnboardingView: View {
     var body: some View {
         
         ZStack {
-            
+            //MARK: BACKGROUND
                 LinearGradient(colors: [.black,.red], startPoint: .topLeading, endPoint: .bottomLeading)
                     .edgesIgnoringSafeArea(.all)
                     
             VStack{
                 VStack{
+            //MARK: TITLE
             TitleApp()
                       
                 Divider()
                     VStack(alignment: .center, spacing: 30){
+            // MARK: CONTENERS TEXT
+                        
             InfoView(text: "Find the best classic movies")
             InfoView(text: "Buy online and get promotion")
             InfoView(text: "Watch in premiere and enjoy !")
@@ -31,6 +34,8 @@ struct OnboardingView: View {
                     .padding(.vertical,70)
                 }
                 .padding(.vertical)
+                
+            //MARK: CLOSING BUTTON
                 Button(action: {
                     onboardingIsShowing = false
                 },label: {

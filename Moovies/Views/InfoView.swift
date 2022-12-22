@@ -13,7 +13,7 @@ struct InfoView: View {
     var body: some View {
         
         
- 
+ // MARK: CONTENERS
             RoundedRectangle(cornerRadius: 20)
                 .fill(Color.black)
             .frame(width: 350, height: 50)

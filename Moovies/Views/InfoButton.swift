@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+
+//MARK: INFO BUTTON
 struct InfoButton: View {
     var body: some View {
     Image(systemName: "info")
@@ -21,6 +23,8 @@ struct InfoButton: View {
     )
     }
 }
+
+//MARK: CLOSING BUTTON
 struct RoundCloseViews: View {
  
     var body: some View {

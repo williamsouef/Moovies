@@ -9,7 +9,9 @@ import SwiftUI
 
 struct TitleApp: View {
     var body: some View {
-        Text("Cinema Ticket")
+        
+        //MARK: TITLE TEXT
+        Text("MOOVIES")
             .fontWeight(.bold)
             .font(.largeTitle)
             .foregroundColor(Color.yellow)
