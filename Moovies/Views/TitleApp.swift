@@ -12,9 +12,10 @@ struct TitleApp: View {
         
         //MARK: TITLE TEXT
         Text("MOOVIES")
+            
             .fontWeight(.bold)
             .font(.largeTitle)
-            .foregroundColor(Color.yellow)
+              .foregroundColor(Color.yellow)
             .shadow(color: .orange, radius: 10, x: 0, y: 10)
     }
 }

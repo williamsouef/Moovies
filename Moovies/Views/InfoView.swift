@@ -9,7 +9,8 @@ import SwiftUI
 
 struct InfoView: View {
     
-    let text : String
+    var texte : String
+    
     var body: some View {
         
         
@@ -21,7 +22,7 @@ struct InfoView: View {
                 HStack{
                     Image(systemName: "checkmark.circle.fill")
                         .foregroundColor(Color.yellow)
-            Text(text)
+                    Text(texte)
                 .foregroundColor(Color.yellow)
                 }
                 )
@@ -30,8 +31,11 @@ struct InfoView: View {
     }
 }
 
+
+
 struct InfoView_Previews: PreviewProvider {
+    
     static var previews: some View {
-        InfoView(text:"hello world")
+        InfoView(texte: "hiii")
     }
 }

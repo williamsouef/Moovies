@@ -16,7 +16,7 @@ struct ContentView: View {
         
         VStack(alignment: .trailing, spacing: 70){
             
-            
+            //MARK: INFO BUTTON
             Button(action: {
                 onboardingIsShowing = true
             }){
@@ -25,7 +25,7 @@ struct ContentView: View {
                 OnboardingView(onboardingIsShowing: $onboardingIsShowing)
             })
             .padding(50)
-            
+              //MARK: TITLE
             TitleApp()
                 .padding(70)
             Spacer()
